@@ -1,0 +1,43 @@
+/*///////////////////////////
+Style Sheet
+//////////////////////////*/
+body{
+  background-color: #aa7668;
+}
+
+p{
+  font-family: sans-serif;
+  color: #000;
+}
+
+/*for all h1, do this*/
+h1{
+  text-align: center;
+}
+
+/* browser checks if cpu has liberation sans (default text)
+if not, will use other listed fonts
+*/
+h1, h2{
+  font-family: "Liberation Sans", "Arial", "Helvetica", sans-serif;
+  color: #555555;
+}
+
+/*margin left and right auto only works on block elements */
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+.image-caption{
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#squash{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
